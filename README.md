@@ -1,8 +1,17 @@
 # startUsingJavaJUnit
-
 A simple Java JUnit project to check Java and Maven are installed correctly.
 
 Clone or download the project.
+
+Below you can find code snippet:
+
+```java 
+    @Test
+    public void testMultiple(){
+        int result = Calculator.multiply(6,2);
+        assertEquals(12, result);
+    }
+```
 
 Preqrequisites:
 
